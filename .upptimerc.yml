@@ -5,14 +5,13 @@ repo: Uptime # The name of this repository
 sites:
   - name: larakalobarcelona
     url: https://larakalobarcelona.es/
-    maxResponseTime: 4000          # (ms) marca como lento si excede
-    expectedStatusCodes: [200, 301, 302]  # acepta redirecciones típicas
+
 
 # === Configuración de la status page (GitHub Pages) ===
 status-website:
-  # cname: status.larakalobarcelona.es   # Subdominio para tu status page
+  cname: status.larakalobarcelona.es   # Subdominio para tu status page
   # Si NO vas a usar dominio propio, comenta la línea de arriba y descomenta la siguiente con el nombre del repo
-  baseUrl: /Uptime
+  # baseUrl: /Uptime
 
   # Branding (opcional)
   # Cambia el logo si tienes una URL propia (PNG/SVG). Si no, deja el icono por defecto.

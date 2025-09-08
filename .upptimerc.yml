@@ -1,36 +1,35 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: icarolosada # Your GitHub organization or username, where this repository lives
+repo: Uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: larakalobarcelona
+    url: https://larakalobarcelona.es/
+    maxResponseTime: 4000          # (ms) marca como lento si excede
+    expectedStatusCodes: [200, 301, 302]  # acepta redirecciones típicas
 
+# === Configuración de la status page (GitHub Pages) ===
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  cname: status.larakalobarcelona.es   # Subdominio para tu status page
+  # Si NO vas a usar dominio propio, comenta la línea de arriba y descomenta la siguiente con el nombre del repo
+  # baseUrl: /Uptime
+
+  # Branding (opcional)
+  # Cambia el logo si tienes una URL propia (PNG/SVG). Si no, deja el icono por defecto.
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Estado • Lara Kalo Barcelona
+  introTitle: "**Estado del servicio**"
+  introMessage: >
+    Monitoreo automático de disponibilidad y latencia de **larakalobarcelona.es**.
+    Esta página se actualiza en tiempo real con datos generados por GitHub Actions y alojados en GitHub Pages.
+
   navbar:
-    - title: Status
+    - title: Estado
       href: /
+    - title: Web
+      href: https://larakalobarcelona.es/
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/icarolosada/Uptime
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration

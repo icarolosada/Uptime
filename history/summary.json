@@ -6,17 +6,17 @@
     "slug": "larakalobarcelona",
     "status": "up",
     "uptime": "97.99%",
-    "uptimeDay": "89.95%",
-    "uptimeWeek": "80.66%",
-    "uptimeMonth": "86.33%",
+    "uptimeDay": "90.87%",
+    "uptimeWeek": "81.02%",
+    "uptimeMonth": "86.36%",
     "uptimeYear": "97.99%",
     "time": 826,
     "timeDay": 918,
-    "timeWeek": 787,
+    "timeWeek": 782,
     "timeMonth": 806,
     "timeYear": 826,
     "dailyMinutesDown": {
-      "2026-04-27": 144,
+      "2026-04-27": 131,
       "2026-04-26": 345,
       "2026-04-25": 448,
       "2026-04-24": 557,
@@ -54,7 +54,8 @@
       "2026-03-23": 18,
       "2026-03-22": 30,
       "2026-03-21": 93,
-      "2026-03-20": 104
+      "2026-03-20": 104,
+      "2026-03-19": 34
     }
   }
 ]

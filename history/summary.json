@@ -4,16 +4,16 @@
     "url": "https://larakalobarcelona.es/",
     "icon": "https://icons.duckduckgo.com/ip3/larakalobarcelona.es.ico",
     "slug": "larakalobarcelona",
-    "status": "down",
-    "uptime": "96.12%",
-    "uptimeDay": "97.84%",
+    "status": "up",
+    "uptime": "96.08%",
+    "uptimeDay": "83.98%",
     "uptimeWeek": "78.80%",
-    "uptimeMonth": "74.92%",
-    "uptimeYear": "96.12%",
+    "uptimeMonth": "74.46%",
+    "uptimeYear": "96.08%",
     "time": 820,
-    "timeDay": 755,
-    "timeWeek": 743,
-    "timeMonth": 814,
+    "timeDay": 845,
+    "timeWeek": 754,
+    "timeMonth": 816,
     "timeYear": 820,
     "dailyMinutesDown": {
       "2026-04-25": 39,
@@ -68,7 +68,7 @@
       "2026-06-19": 369,
       "2026-06-20": 543,
       "2026-06-23": 31,
-      "2026-06-24": 0
+      "2026-06-24": 200
     }
   }
 ]
